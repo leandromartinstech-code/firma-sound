@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+
+# Notas internas do projeto (não publicar)
+PROMPT-CLAUDE-CODE.md

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#070707" />
+    <title>Firma Sound — Som, luz, LED e palcos para eventos</title>
+    <meta
+      name="description"
+      content="Sonorização, iluminação cênica, painéis de LED e palcos para casamentos, eventos corporativos, festas e shows. Montagem, operação e desmontagem."
+    />
+    <link rel="icon" href="/assets/brand/firma-sound-logo.webp" />
+
+    <!-- Primeiro frame da cena: é a imagem mais importante da primeira tela.
+         Cada aparelho baixa só a versão dele (media queries iguais às do JS). -->
+    <link rel="preload" as="image" type="image/webp" fetchpriority="high"
+      href="/assets/films/hero/desktop/frame_0001.webp"
+      media="(min-width: 768px) and (orientation: landscape), (min-width: 1025px)" />
+    <link rel="preload" as="image" type="image/webp" fetchpriority="high"
+      href="/assets/films/hero/mobile/frame_0001.webp"
+      media="(max-width: 767px), (orientation: portrait) and (max-width: 1024px)" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
